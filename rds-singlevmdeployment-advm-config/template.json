@@ -130,7 +130,7 @@
     "subnetAddressRange": "10.20.0.0/24",
     "dnsServerPrivateIp": "10.20.0.4",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('adVnetName')),'/subnets/', variables('adSubnetName'))]",
-    "assetLocation": "https://raw.githubusercontent.com/jamelachahbar/azure-rds/main/rds-singlevmdeployment-advm-config//Configuration.zip",
+    "assetLocation": "https://raw.githubusercontent.com/jamelachahbar/azure-rds/main/rds-singlevmdeployment-advm-config",
     "nsgName": "RDSNsg",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
