@@ -41,7 +41,7 @@
       "allowedValues": [
         "2012-R2-Datacenter",
         "2016-Datacenter",
-		"2019-Datacenter"
+		    "2019-Datacenter"
       ],
       "metadata": {
         "description": "Windows server SKU"
@@ -130,7 +130,7 @@
     "subnetAddressRange": "10.0.0.0/24",
     "dnsServerPrivateIp": "10.0.0.4",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('adVnetName')),'/subnets/', variables('adSubnetName'))]",
-    "assetLocation": "https://raw.githubusercontent.com/Azure/azure-QuickStart-Templates/master/rds-deployment/",
+    "assetLocation": "https://raw.githubusercontent.com/jamelachahbar/azure-rds/main/rds-singlevmdeployment-advm-config/",
     "nsgName": "RDSNsg",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
