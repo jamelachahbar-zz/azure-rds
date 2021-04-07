@@ -159,7 +159,6 @@
               "protocol": "*",
               "sourcePortRange": "*",
               "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
               "sourceAddressPrefixes": ["192.46.52.29","81.82.127.233"],
               "destinationAddressPrefix": "*",
               "access": "Allow",
